@@ -22,6 +22,14 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Jeopardy!</h1>
       </header>
+      <div>
+        data.map(col (
+        <div className="col">
+          <h3>{col.title}</h3>
+          <div className="questions"></div>
+        </div>
+        ))
+      </div>
     </div>
   );
 }
